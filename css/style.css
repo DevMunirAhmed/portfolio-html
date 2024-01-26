@@ -1,0 +1,149 @@
+*{
+ margin: 0;   
+ padding: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+h1,h2,h3{
+    font-weight: 700;
+}
+
+
+p{
+    font-weight: 100;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* Banner section start */
+
+.btnSection {
+    text-decoration: none;
+    color: #fff;
+    background: #a700a1;
+    padding: 10px 40px;
+    border: 3px solid #333;
+    border-radius: 15px;
+}
+.bannerSec{
+    background-image: url(../images/top-banner.png);
+    background-position:left;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+}
+
+.bannerWrapper{
+    display: flex;
+}
+
+.halfWidth{
+    width: 50%;
+}
+.wrapperText {
+    margin-top: 115px;
+    margin-left:7%;
+}
+
+.wrapperText h1 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.wrapperText p {
+    color: #333;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.nameClr{
+    color:#a700a1;
+    font-weight: 700;
+}
+.wrapperImg img{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+
+/* Histry section start */
+
+.histrySec{
+    margin-bottom: 50px;
+}
+
+.histrySec .wrapperText{
+    margin-left: 0;
+    margin-right: 7%;
+}
+
+
+/* Mission Section Start */
+
+section.missionSec {
+    margin-bottom: 100px;
+}
+
+.missionsWrapper{
+    display: flex;
+    width: 90%;
+    margin: 0 5%
+}
+
+.missionsWrapper .nameClr {
+    color: #a700a1;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 22px 0px;
+}
+
+.singleMission {
+    width: 50%;
+    margin: 0 2%;
+    background: #ebebeb;
+    padding: 30px 15px 30px 30px;
+    box-shadow: 5px 5px 15px #333333c9;
+    border-radius: 15px;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-left: 15px solid;
+}
+.singleMission h3 {
+    font-size: 31px;
+    color: #333;
+}
+
+.singleMission p {
+    font-weight: 400;
+    text-align: justify;
+}
+section.missionSec h1 {
+    font-size: 45px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+
+/*   Footer Section Start   */
+footer {
+    background: #000000;
+    padding: 15px 0px;
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: 400 ;
+    color: #a7a7a7;
+    text-align: center;
+}
